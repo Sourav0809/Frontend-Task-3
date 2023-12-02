@@ -27,13 +27,17 @@ const MediaAdForm = () => {
         <div className=" flex justify-center items-center gap-6 mt-5 ">
           <div className=" flex flex-col md:flex-row w-full justify-center items-center  gap-6">
             <div className="flex flex-col gap-2 w-full md:w-1/2">
-              <label htmlFor="heading">Heading 01</label>
+              <label htmlFor="heading " className=" font-semibold">
+                Heading 01
+              </label>
               <input
                 type="text"
-                className=" border  w-full p-2 rounded-md"
+                className=" border w-full p-2 rounded-md"
                 placeholder="Add a heading that would make users intersted"
               />
-              <label htmlFor="heading">Heading 02</label>
+              <label htmlFor="heading" className=" font-semibold">
+                Heading 02
+              </label>
               <input
                 type="text"
                 className=" border  w-full p-2 rounded-md"
@@ -41,7 +45,9 @@ const MediaAdForm = () => {
               />
             </div>
             <div className=" flex flex-col gap-2 w-full md:w-1/2 ">
-              <label htmlFor="description">Description 01</label>
+              <label htmlFor="description" className=" font-semibold">
+                Description 01
+              </label>
               <textarea
                 type="text"
                 placeholder="Add primary text to help users understand more about your products, service or offers"
